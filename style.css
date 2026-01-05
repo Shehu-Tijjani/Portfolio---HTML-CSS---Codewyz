@@ -67,8 +67,8 @@ p {
 .btn {
     color: var(--color-white);
     background-color: var(--color-black);
-    padding: 1rem 2.5rem;
     padding: 1.5rem 3.3rem;
+    padding: 1em 2.2em;
     border-radius: 5rem;
     var(--color-white)-space: nowrap;
     display: inline-block;
@@ -303,7 +303,7 @@ nav .container ul li a:hover {
 
 .hero .typography h1 {
     /* font-size: min(5.9rem, 70vw); */
-    font-size: clamp(2rem, 14.2vw, 8rem);
+    font-size: clamp(2rem, 14vw, 8rem);
     line-height: 1;
     letter-spacing: -0.1.5rem;
     margin-bottom: 3rem;
@@ -334,12 +334,12 @@ nav .container ul li a:hover {
 }
 
 .hero .typography .buttons .btn {
-    border: 0.1rem solid #000;
     background-color: #000;
     flex: 1 1 fit-content;
 }
 
 .hero .typography .buttons .btn:first-of-type {
+    border: 0.1rem solid #000;
     background-color: transparent;
     color: var(--color-black);
     font-weight: 600;
@@ -365,7 +365,6 @@ nav .container ul li a:hover {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    display: block;
 }
 
 /* Unfo */
