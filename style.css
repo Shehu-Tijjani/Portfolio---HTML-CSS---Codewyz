@@ -354,8 +354,6 @@ nav .container ul li a:hover {
     overflow: hidden;
     max-width: 46rem;
     max-height: 80vh;
-    min-height: 46rem;
-    
     min-height: fit-content;
 
     background-color: grey;
@@ -384,13 +382,21 @@ nav .container ul li a:hover {
     background-color: rgba(256, 256, 256, 0.6);
     border: 0.15rem solid var(--color-white);
     box-shadow: 0 1.5rem 1.5rem 1.5rem #0000001a;
+<<<<<<< HEAD
     padding: 3rem 2rem;
+=======
+    padding: 3rem;
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
     column-gap: 2rem;
     row-gap: 3rem;
 
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     justify-content: space-around;
+=======
+    justify-content: space-between;
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
     flex-wrap: wrap;
 }
 
@@ -398,6 +404,10 @@ nav .container ul li a:hover {
     display: flex;
     flex: 1 0 fit-content;
     max-width: 20rem;
+<<<<<<< HEAD
+=======
+    margin: auto;
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
 
     align-items: center;
     gap: 1rem;
@@ -450,8 +460,12 @@ nav .container ul li a:hover {
     width: 100%;
     display: grid;
     gap: 3rem;
+<<<<<<< HEAD
     /* grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr)); */
     grid-template-columns: repeat(auto-fit, minmax(min(27rem, 50vw), 1fr));
+=======
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
     /* grid-auto-flow: column; */
 }
 
@@ -472,8 +486,13 @@ nav .container ul li a:hover {
 }
 
 .services figure .image {
+<<<<<<< HEAD
     width: 50%;
     height: 15rem;
+=======
+    height: 15rem;
+    width: 15rem;
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -481,8 +500,11 @@ nav .container ul li a:hover {
 .services figure .image img {
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     object-fit: contain;
     object-position: center;
+=======
+>>>>>>> a22a19f2e4daa0e8be45545a2a84d456bee88aa8
 }
 
 .services figure .typography {
