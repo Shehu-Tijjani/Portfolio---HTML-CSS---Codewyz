@@ -1,0 +1,599 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+        />
+
+        <title>Tijjani - Web Dev</title>
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <a href="#home">
+                            <img src="images/logo.png" alt=""
+                        /></a>
+                    </div>
+
+                    <div class="hamburger">
+                        <input type="checkbox" id="status" />
+
+                        <label class="icon open-icon" for="status">
+                            <svg>
+                                <use xlink:href="images/open.svg" />
+                            </svg>
+                        </label>
+
+                        <label class="icon close-icon" for="status">
+                            <svg>
+                                <use href="images/close.svg" />
+                            </svg>
+                        </label>
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#home">Home </a>
+                            </li>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+
+                        <a class="btn" href="#">Let's talk!</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="container">
+                    <div class="typography">
+                        <h6 class="small-header-text">Hi!,Im</h6>
+                        <h1>
+                            Akinyemi <br />
+                            Shehu Tijjani
+                        </h1>
+                        <h4>A Frontend Website Developer</h4>
+
+                        <p>
+                            With over 5 years of experience in creating
+                            game-changing websites, I'm your one-stop shop to
+                            fulfilling your Website needs.
+                        </p>
+                        
+                        <div class="buttons">
+                          <a class="btn" href="#">Download CV</a>
+
+                          <a class="btn" href="#">Let's talk!</a>
+                        </div>
+                    </div>
+
+                    <div class="image-box">
+                        <div class="image">
+                            <img src="images/photo.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="info">
+            <div class="container">
+                <div>
+                    <figure>
+                        <svg>
+                            <use href="images/experience.svg" />
+                        </svg>
+
+                        <div class="text">
+                            <h3>2 years Job</h3>
+                            <p>Experience</p>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <svg>
+                            <use href="images/project.svg" />
+                        </svg>
+
+                        <div class="text">
+                            <h3>50+ projects</h3>
+                            <p>Completed</p>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <svg>
+                            <use href="images/support.svg" />
+                        </svg>
+
+                        <div class="text">
+                            <h3>24/7 Online</h3>
+                            <p>Availaibility</p>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="header">
+                    <h6 class="small-header-text">Why Choose Me</h6>
+                    <h2 class="large-header-text">My Areas of Expertise</h2>
+                </div>
+
+                <div class="grid">
+                    <figure>
+                        <div class="image">
+                            <img src="images/html.png" alt="" />
+                        </div>
+
+                        <div class="typography">
+                            <h4>HTML5 : 99% Efficiency</h4>
+
+                            <p>
+                                Building semantic, accessible, and SEO-friendly
+                                web pages that structure content logically for
+                                users and search engines.
+                            </p>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <div class="image">
+                            <img src="images/css.png" alt="" />
+                        </div>
+
+                        <div class="typography">
+                            <h4>CSS : 80% Efficiency</h4>
+
+                            <p>
+                                Creating visually appealing websites with
+                                layouts, styling, animations, and responsive
+                                design to make content look great on any device.
+                            </p>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <div class="image">
+                            <img src="images/responsive.png" alt="" />
+                        </div>
+
+                        <div class="typography">
+                            <h4>Responsive Design : 80% Efficiency</h4>
+
+                            <p>
+                                Ensuring websites adapt to different screen
+                                sizes, providing a seamless experience for
+                                desktop, tablet, and mobile users.
+                            </p>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <div class="image">
+                            <img src="images/ui.png" alt="" />
+                        </div>
+
+                        <div class="typography">
+                            <h4>UI styling : 80% Efficiency</h4>
+
+                            <p>
+                                Designing interactive and user-friendly
+                                interfaces that engage users and improve
+                                usability for better client satisfaction.
+                            </p>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="grid">
+                    <div class="header grid-item">
+                        <h6 class="small-header-text">Portfolio</h6>
+                        <h2 class="large-header-text">My Amazing Projects</h2>
+                        <p>
+                            These projects showcase my current frontend skills
+                            using HTML, CSS, and responsive layouts. They
+                            highlight my attention to detail, mobile-first
+                            design, and commitment to writing clean code. This
+                            section will continue to evolve as I expand into
+                            more advanced frontend technologies.
+                        </p>
+                    </div>
+
+                    <div class="grid-item" id="one">
+                        <a id="" href="#">
+                            <img src="images/projects/art-gallery.jpg" alt="" />
+
+                            <div class="description">
+                                <h6>Responsive Website</h6>
+                                <h2>Modern Art Gallery</h2>
+                                <p>
+                                    Explore the amazing arts in the collection
+                                    of the Modern Art Gallery
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" id="two">
+                        <a id="" href="#">
+                            <img
+                                src="images/projects/skilled-desktop.jpg"
+                                alt=""
+                            />
+
+                            <div class="description">
+                                <h6>E-learning Landung Page</h6>
+                                <h2>Skilled</h2>
+                                <p>
+                                    Discover the collection of modern couses
+                                    acrosa a range of in-demand skilla
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" id="three">
+                        <a id="" href="#">
+                            <img
+                                src="images/projects/tech-book-club.jpg"
+                                alt=""
+                            />
+
+                            <div class="description">
+                                <h6>Responsive Website</h6>
+                                <h2>Tech Book Club</h2>
+                                <p>
+                                    Turn yoir reading time into learning time
+                                    with fellow tech enthusiasts
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <div class="container">
+                <div class="typography grid-item">
+                    <h6 class="small-header-text">Testimonial</h6>
+                    <h2 class="large-header-text">Words of satisfaction</h2>
+                </div>
+
+                <div class="slider">
+                    <div class="slider-track">
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                Working with Shehu was a smooth experience from
+                                start to finish. He delivered a clean,
+                                responsive website that looks great on all
+                                devices. His attention to detail with HTML and
+                                CSS really shows.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/44.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Sarah Johnsonn</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>4/5</span> <span>⭐⭐⭐⭐☆</span>
+                            </div>
+
+                            <p class="comment">
+                                Shehu did an excellent job translating our
+                                design ideas into a functional and visually
+                                appealing website. The layout is well-structured
+                                and performs perfectly across screen sizes.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/men/32.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Micheal Brown</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span><span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                I was impressed by how responsive and
+                                well-organized the website turned out. Shehu
+                                clearly understands modern frontend best
+                                practices and communicates progress very
+                                clearly.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/68.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Aisha Bello</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                The website delivered was fast, mobile-friendly,
+                                and easy to navigate. Shehu’s knowledge of HTML
+                                and CSS helped bring our ideas to life exactly
+                                as planned.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/men/71.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Daniel Okoye</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                Shehu pays great attention to layout, spacing,
+                                and responsiveness. The final result looked
+                                professional and polished, exceeding my
+                                expectations for a frontend project
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/12.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Emily Carter</p>
+                            </div>
+                        </div>
+
+                        <!-- duplicate content -->
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                Working with Shehu was a smooth experience from
+                                start to finish. He delivered a clean,
+                                responsive website that looks great on all
+                                devices. His attention to detail with HTML and
+                                CSS really shows.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/44.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Sarah Johnsonn</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>4/5</span> <span>⭐⭐⭐⭐☆</span>
+                            </div>
+
+                            <p class="comment">
+                                Shehu did an excellent job translating our
+                                design ideas into a functional and visually
+                                appealing website. The layout is well-structured
+                                and performs perfectly across screen sizes.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/men/32.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Micheal Brown</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                I was impressed by how responsive and
+                                well-organized the website turned out. Shehu
+                                clearly understands modern frontend best
+                                practices and communicates progress very
+                                clearly.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/68.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Aisha Bello</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                The website delivered was fast, mobile-friendly,
+                                and easy to navigate. Shehu’s knowledge of HTML
+                                and CSS helped bring our ideas to life exactly
+                                as planned.
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/men/71.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Daniel Okoye</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="rating">
+                                <span>5/5</span> <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <p class="comment">
+                                Shehu pays great attention to layout, spacing,
+                                and responsiveness. The final result looked
+                                professional and polished, exceeding my
+                                expectations for a frontend project
+                            </p>
+
+                            <div class="client">
+                                <div class="image">
+                                    <img
+                                        src="https://randomuser.me/api/portraits/women/12.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <p class="name">Emily Carter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="top">
+                    <h1>
+                        <span>Innovative ideas</span> deserve
+                        <span>frontends that drive results.</span> Let’s grow
+                        your business!
+                    </h1>
+
+                    <div class="">
+                        <div class="data">
+                            <div class="image">
+                                <img src="images/photp-2.jpg" alt="" />
+                            </div>
+
+                            <div class="">
+                                <p>Akinyemi Shehu Tijjani</p>
+                                <p>Frontend Developer</p>
+
+                                <div class="socials">
+                                    <a href="#">
+                                        <i
+                                            class="fa-brands fa-square-linkedin fa-lg"
+                                        ></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i
+                                            class="fa-brands fa-square-whatsapp fa-lg"
+                                        ></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i
+                                            class="fa-brands fa-square-instagram fa-lg"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Hire Me!</a>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="bottom">
+                    <p>
+                        <span>The Web</span> does not just connect machines, it
+                        <span>connects people</span>
+                    </p>
+
+                    <p>~Tim Berners Lee</p>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://kit.fontawesome.com/4db98ee7aa.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

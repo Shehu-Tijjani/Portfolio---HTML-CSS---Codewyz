@@ -1,0 +1,65 @@
+Testimonial
+
+### 1️⃣ Testimonial
+
+**Name:** Sarah Johnson
+**Rating:** ⭐⭐⭐⭐⭐ (5/5)
+**Image:**
+[https://randomuser.me/api/portraits/women/44.jpg
+
+**Text:**
+
+> “Working with Shehu was a smooth experience from start to finish. He delivered a clean, responsive website that looks great on all devices. His attention to detail with HTML and CSS really shows.”
+
+---
+
+### 2️⃣ Testimonial
+
+**Name:** Michael Brown
+**Rating:** ⭐⭐⭐⭐☆ (4/5)
+**Image:**
+[https://randomuser.me/api/portraits/men/32.jpg
+
+**Text:**
+
+> “Shehu did an excellent job translating our design ideas into a functional and visually appealing website. The layout is well-structured and performs perfectly across screen sizes.”
+
+---
+
+### 3️⃣ Testimonial
+
+**Name:** Aisha Bello
+**Rating:** ⭐⭐⭐⭐⭐ (5/5)
+**Image:**
+https://randomuser.me/api/portraits/women/68.jpg
+
+**Text:**
+
+> “I was impressed by how responsive and well-organized the website turned out. Shehu clearly understands modern frontend best practices and communicates progress very clearly.”
+
+---
+
+### 4️⃣ Testimonial
+
+**Name:** Daniel Okoye
+**Rating:** ⭐⭐⭐⭐☆ (4/5)
+**Image:**
+[https://randomuser.me/api/portraits/men/71.jpg
+
+**Text:**
+
+> “The website delivered was fast, mobile-friendly, and easy to navigate. Shehu’s knowledge of HTML and CSS helped bring our ideas to life exactly as planned.”
+
+---
+
+### 5️⃣ Testimonial
+
+**Name:** Emily Carter
+**Rating:** ⭐⭐⭐⭐⭐ (5/5)
+**Image:**
+[https://randomuser.me/api/portraits/women/12.jpg]
+
+**Text:**
+
+> “Shehu pays great attention to layout, spacing, and responsiveness. The final result looked professional and polished, exceeding my expectations for a frontend project.”
+
