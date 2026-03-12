@@ -826,7 +826,7 @@ animation-fill-mode: ease; */
 .slide-in {
     animation: fadeInleft linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
 }
 
 @keyframes fadeInleft {
