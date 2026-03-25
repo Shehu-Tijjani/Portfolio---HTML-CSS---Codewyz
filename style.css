@@ -801,10 +801,10 @@ footer .bottom {
     opacity: 0;
     visibility: hidden;
 
-    /*   animation-name: hero-slide-in;
-animation-direction: forwards;
-animation-duration: 1s;
-animation-fill-mode: ease; */
+    /* animation-name: hero-slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; */
 
     animation: hero-slide-in 1s ease forwards;
 }
@@ -824,21 +824,43 @@ animation-fill-mode: ease; */
 }
 
 .slide-in {
-    animation: fadeInleft linear;
+    animation: fadeInleft ease-in-out;
     animation-timeline: view();
-    animation-range: entry 0% cover 25%;
+    animation-range: entry 0% cover 40%;
 }
 
-@keyframes fadeInleft {
+/* @keyframes fadeInleft {
     from {
         visibility: hidden;
         opacity: 0;
         transform: translateX(-150px);
+        transform: translateY(150px);
     }
 
     to {
         visibility: visible;
         opacity: 1;
         transform: translateX(0);
+        transform: translateY(0);
+    }
+} */
+
+@keyframes fadeInleft {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(150px);
+    }
+
+    50% {
+        visibility: visible;
+        opacity: 0;
+        transform: translateY(150px);
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
     }
 }
