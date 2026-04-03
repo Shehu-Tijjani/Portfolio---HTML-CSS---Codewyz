@@ -325,7 +325,7 @@ nav .container ul li a:hover {
     color: var(--color-primary);
     margin-bottom: 2rem;
 
-    animation-delay: 1s;
+    
 }
 
 .hero .typography h1 {
@@ -336,7 +336,7 @@ nav .container ul li a:hover {
     letter-spacing: -0.25rem;
     margin-bottom: 3rem;
 
-    animation-delay: 1.5s;
+    animation-delay: .3s;
 }
 
 .hero .typography p {
@@ -344,7 +344,7 @@ nav .container ul li a:hover {
     margin-bottom: 3.5rem;
     opacity: 0;
 
-    animation-delay: 2s;
+    animation-delay: .6s;
 }
 
 .hero .typography .buttons {
@@ -353,7 +353,7 @@ nav .container ul li a:hover {
     flex-wrap: wrap;
     gap: 1rem;
 
-    animation-delay: 2.5s;
+    animation-delay: .9s;
 }
 
 /* @media (max-width: 740px) { */
@@ -378,7 +378,7 @@ nav .container ul li a:hover {
 .hero .image-box {
     flex: 1 1 35rem;
 
-    animation-delay: 3s;
+    animation-delay: 1.2s;
 }
 
 .hero .image {
@@ -824,9 +824,14 @@ footer .bottom {
 }
 
 .slide-in {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100px);
+  
     animation: fadeInleft ease-in-out;
     animation-timeline: view();
-    animation-range: entry -30% cover 30%;
+    animation-range: entry 0% cover 30%;
+    animation-fill-mode: forwards;
 }
 
 /* @keyframes fadeInleft {
@@ -849,13 +854,13 @@ footer .bottom {
     0% {
         visibility: hidden;
         opacity: 0;
-        transform: translateY(150px);
+        transform: translateY(100px);
     }
 
     50% {
-        visibility: visible;
+        visibility: hidden;
         opacity: 0;
-        transform: translateY(150px);
+        transform: translateY(100px);
     }
 
     100% {
