@@ -48,22 +48,31 @@
                             <img src="images/logo.png" alt=""
                         /></a>
                     </div>
+                    
+                    <label for="theme-state" id="theme-toggle">
+                      <input type="checkbox" id="theme-state"/>
+                                         
+                      <svg id="dark-mode">
+                        <use href="images/dark-mode.svg"/>
+                      </svg>
+                      
+                      <svg id="light-mode">
+                        <use href="images/light-mode.svg"/>
+                      </svg>
+                    </label>
 
-                    <div class="hamburger">
-                        <input type="checkbox" id="status" />
-
-                        <label class="icon open-icon" for="status">
-                            <svg>
-                                <use xlink:href="images/open.svg" />
+                        <label for="status" class="hamburger">
+                            <input type="checkbox" id="status" />
+                          
+                            <svg class="icon open-icon">
+                                <use href="images/open.svg" />
                             </svg>
-                        </label>
-
-                        <label class="icon close-icon" for="status">
-                            <svg>
+                            
+                            <svg class="icon close-icon">
                                 <use href="images/close.svg" />
                             </svg>
                         </label>
-                    </div>
+                    
 
                     <div class="menu">
                         <ul>
@@ -236,10 +245,9 @@
                         <h6 class="small-header-text">Portfolio</h6>
                         <h2 class="large-header-text">My Amazing Projects</h2>
                         <p>
-                            These projects showcase my current frontend skills
-                            using HTML, CSS, and responsive layouts. They
-                            highlight my attention to detail, mobile-first
-                            design, and commitment to writing clean code. This
+                            These projects showcase my current skills
+                            working with HTML, CSS, and responsive layouts. They
+                            highlight my attention to detail, and commitment to writing clean code. This
                             section will continue to evolve as I expand into
                             more advanced frontend technologies.
                         </p>
