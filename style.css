@@ -384,6 +384,7 @@ nav .container ul li a:hover {
     font-size: max(6vw, 6rem);
     font-size: min(15vw, 9rem);
     font-size: clamp(6rem, 8.2vw, 9rem);
+    font-weight: 900;
     line-height: 1;
     letter-spacing: -0.25rem;
     margin-bottom: 3rem;
