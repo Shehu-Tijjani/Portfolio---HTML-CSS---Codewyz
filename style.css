@@ -5,6 +5,7 @@
     --color-secondary: #d2d0f6;
     
     --color-white-rgb: 251,250,248;
+    --color-black-rgb: 21,21,21;
     --color-primary-rgb: 184,176,115;
     --shadow-gradient: linear-gradient(180deg, rgba(var(--color-white-rgb), 1), rgba(var(--color-white-rgb), .3));
 }
@@ -13,6 +14,7 @@ body:has(#theme-state:checked) {
     --color-white: #151515;
     --color-white-rgb: 21,21,21;
     --color-black: #fbfaf8;
+    --color-black-rgb: 251,250,248;
     --shadow-gradient: linear-gradient(180deg, rgba(var(--color-white-rgb), .3), rgba(var(--color-white-rgb), .1));
 }
 
@@ -79,6 +81,7 @@ a {
 p, h2 {
     font-size: 1.6rem;
     color: var(--color-black);
+    opacity: .8;
 }
 
 .btn {
@@ -543,14 +546,17 @@ nav .container ul li a:hover {
     max-width: 40rem;
     margin: auto;
 
-    border: 0.2rem solid var(--color-white);
-    background-color: #b8b07313;
+    border: 0.2rem solid rgba(var(--color-primary-rgb), .1);
     background-color: rgba(var(--color-primary-rgb) , 0.09);
     border-radius: 2rem;
     align-self: center;
-    box-shadow: 0 1.5rem 2rem 2rem rgba(0, 0, 0, 0.03);
+    
+    transition: all .3s ease;
+}
 
-    /* overflow-y: scroll; */
+.services figure:hover {
+  border: 0.2rem solid rgba(var(--color-primary-rgb), .3);
+    box-shadow: 0 1.5rem 1rem 1rem rgba(var(--color-black-rgb), 0.02);
 }
 
 .services figure .image {
@@ -603,7 +609,7 @@ nav .container ul li a:hover {
 }
 
 .projects .grid-item {
-    border-radius: 1rem;
+    border-radius: 2rem;
     overflow: hidden;
     height: 100%;
 }
@@ -620,6 +626,11 @@ nav .container ul li a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: scale .3s ease;
+}
+
+.projects .grid-item:hover img {
+  scale: 1.1;
 }
 
 .projects .grid-item a .description {
@@ -695,8 +706,7 @@ nav .container ul li a:hover {
     background-color:;
     padding: 3rem 4rem;
     border-radius: 2rem;
-    box-shadow: 0 0 2rem 1.5rem #0000000a;
-    box-shadow: 0 0 2rem 1.5rem rgba(var(--color-primary-rgb) , 0.09);
+    border: 1px solid rgba(var(--color-black-rgb), .2);
 
     display: flex;
     flex-direction: column;
