@@ -737,7 +737,7 @@ nav .container ul li a:hover {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(calc(-50% - 2rem));
     }
 }
 
