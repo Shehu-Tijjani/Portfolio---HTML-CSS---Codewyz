@@ -34,6 +34,7 @@ body:has(#theme-state:checked) {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
     /*Default root font-size = 16px*/
     font-size: 10px;
     /* font-size: 62.5%; */
@@ -109,7 +110,7 @@ h2 {
 .btn:hover {
     opacity: 0.8;
     box-shadow: 0 3px 5px 5px rgba(var(--color-primary-rgb), 0.2);
-    translate: 0 -5px;
+    translate: 0 -0.5rem;
 }
 
 .large-header-text {
@@ -195,17 +196,13 @@ nav .container #theme-toggle {
     height: 2.8rem;
     width: 2.8rem;
     margin-left: auto;
-    position: relative;
+    display: flex;
     overflow: hidden;
     cursor: pointer;
 }
 
 nav .container #theme-toggle svg {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    flex: 0 0 100%;
     transition: all 0.4s ease;
     color: var(--color-black);
     stroke: var(--color-black);
@@ -213,16 +210,8 @@ nav .container #theme-toggle svg {
     font-weight: 900;
 }
 
-nav .container #theme-toggle #light-mode {
-    left: 100%;
-}
-
-#theme-toggle:has(#theme-state:checked) #dark-mode {
-    left: -100%;
-}
-
-#theme-toggle:has(#theme-state:checked) #light-mode {
-    left: 0;
+#theme-toggle:has(#theme-state:checked) svg {
+    transform: translateX(-2.8rem);
 }
 
 nav .container .menu {
@@ -319,8 +308,7 @@ nav .container ul li a:hover {
 
 @media (max-width: 760px) {
     .hamburger {
-        display: block;
-        position: relative;
+        display: flex;
         height: 2.3rem;
         width: 2.3rem;
         overflow: hidden;
@@ -328,30 +316,13 @@ nav .container ul li a:hover {
     }
 
     .hamburger .icon {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
+        flex: 0 0 100%;
         transition: all 0.3s ease;
-    }
-
-    .hamburger .close-icon {
-        left: 100%;
-    }
-
-    .hamburger:has(#status:checked) .close-icon {
-        left: 0;
-    }
-
-    .hamburger:has(#status:checked) .open-icon {
-        left: -100%;
-    }
-
-    .hamburger .icon {
-        height: 100%;
-        width: 100%;
         fill: var(--color-black);
+    }
+
+    .hamburger:has(#status:checked) .icon {
+        transform: translateX(-2.3rem);
     }
 
     nav input {
@@ -566,7 +537,7 @@ nav .container ul li a:hover {
 }
 
 .services .header {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .services .grid {
@@ -642,7 +613,7 @@ nav .container ul li a:hover {
 
 .projects .header p {
     margin-bottom: 2rem;
-    max-width: 500px;
+    max-width: 50rem;
 }
 
 .projects .container .grid {
@@ -749,7 +720,7 @@ nav .container ul li a:hover {
     background-color:;
     padding: 3rem 4rem;
     border-radius: 2rem;
-    border: 1px solid rgba(var(--color-black-rgb), 0.2);
+    border: 0.1rem solid rgba(var(--color-black-rgb), 0.2);
 
     display: flex;
     flex-direction: column;
@@ -944,7 +915,7 @@ footer .bottom {
     visibility: hidden;
     opacity: 0;
     scale: 0.7;
-    transform: translateY(100px);
+    transform: translateY(10rem);
 
     animation: fadeInleft ease-in-out;
     animation-timeline: view();
@@ -956,8 +927,8 @@ footer .bottom {
     from {
         visibility: hidden;
         opacity: 0;
-        transform: translateX(-150px);
-        transform: translateY(150px);
+        transform: translateX(-15rem);
+        transform: translateY(15rem);
     }
 
     to {
@@ -973,14 +944,14 @@ footer .bottom {
         visibility: hidden;
         opacity: 0;
         scale: 0.7;
-        transform: translateY(100px);
+        transform: translateY(10rem);
     }
 
     50% {
         visibility: hidden;
         opacity: 0;
         scale: 0.7;
-        transform: translateY(100px);
+        transform: translateY(10rem);
     }
 
     100% {
