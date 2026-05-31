@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Permanent+Marker&display=swap");
+
 :root {
     --color-white: #fbfaf8;
     --color-black: #151515;
@@ -64,7 +66,7 @@ body:before {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 #theme-state {
@@ -388,10 +390,11 @@ nav .container ul li a:hover {
 
 .hero .typography h1 {
     color: var(--color-black);
-    font-size: max(6vw, 6rem);
-    font-size: min(15vw, 9rem);
+    /* font-size: max(6vw, 6rem);
+    font-size: min(15vw, 9rem); */
     font-size: clamp(6rem, 9vw, 9rem);
-    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    /* font-weight: 900; */
     line-height: 1;
     letter-spacing: -0.25rem;
     margin-bottom: 3rem;
@@ -791,6 +794,7 @@ footer .top h1 {
     font-size: min(4.5rem, 10vw);
     font-size: clamp(3rem, 10vw, 4.5rem);
     font-weight: 400;
+    font-family: "Inter", sans-serif;
     opacity: 0.9;
     margin-bottom: 2rem;
 }
@@ -808,7 +812,7 @@ footer .top .data {
     align-items: center;
     gap: 1.5rem;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 footer .top .data .image {
@@ -860,7 +864,7 @@ footer .top .btn {
     background-color: #fbfaf8;
     box-shadow: 0 0.5rem 1rem 1rem var(--color-primary) 0c;
     color: #151515;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 footer hr {
@@ -875,6 +879,7 @@ footer .bottom {
     p {
         opacity: 0.8;
         color: #fbfaf8;
+        font-size: 17px;
     }
 
     p:first-of-type {
